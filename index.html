@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>Clicker-stock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    
+  </head>
+  <body>
+
+    <h1> Dog Treat Clicker</h1>
+
+    <main class="game-layout">
+
+      <aside class="stats-panel">
+
+        <h2>Stats</h2>
+        <p>Bones: <strong id="stat-bones">0</strong></p>
+        <p>Per click: <strong id="stat-perclick">1</strong></p>
+        <p>Per second: <strong id="stat-cps">0</strong></p>
+        <hr />
+        <h2>Owned</h2>
+        <div id="owned-list">
+          <p>Nothing yet!</p>
+
+        </div>
+      </aside>
+
+      <section class="game-area">
+        <p>Bones: 🦴 <span id="bone-count">0</span></p>
+
+        <button id="click-button">
+          <img src="assets\pet.png" alt="Dog" width="160" />
+        </button>
+
+        <p id="cps-label">0 bones / sec</p>
+      </section>
+
+      <aside class="shop-panel">
+        <h2>Shop</h2>
+        <div id="shop-container"></div>
+      </aside>
+
+    </main>
+
+    
+  </body>
+</html>
